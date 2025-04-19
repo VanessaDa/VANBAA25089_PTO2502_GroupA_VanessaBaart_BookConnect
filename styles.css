@@ -25,6 +25,27 @@ body{
     transition: transform 0.2s, box-shadow 0.2s;
     padding:15px;
 }
+.book-card .book title{
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #2c3e50;
+}
+.book-card .book-author{
+    font-size: 1em;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+.book-card .book-info{
+    font-size: 0.9em;
+    color: #95a5a6;
+    margin: 5px 0;
+}
+.book-card .book-date{
+    font-size: 0.9em;
+    color: #95a5a6;
+    margin: 5px 0;
+}
+
 .book-card:hover{
     transform: translateY(-5px); /* Nagetive moves up the y-axis and positive moves down the y-axis*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
