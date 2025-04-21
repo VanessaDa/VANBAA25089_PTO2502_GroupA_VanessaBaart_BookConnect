@@ -146,8 +146,8 @@ body{
     color: rgba(var(--menu-text-color), 0.3);
     padding: 10px;
     border-radius: 20px;
-    border-color: var(--border-color)
-    margin: 5px
+    border-color: var(--border-color);
+    margin: 5px;
 }
 
 .header_inner{
@@ -217,12 +217,17 @@ body{
     .banner{
         .image{
             height: 400px;
+            width: 1300px;
+            object-fit: cover;
+
             background: url ("https://wallpapers.com/images/featured/book-background-1uu89e2eikq8h8ip.jpg");
         }
        
     }
     .image2 {
         height: 400px;
+        width: 1300px;
+        object-fit: cover;
         background: url ("https://images.wallpaperscraft.com/image/single/books_library_shelves_138556_2560x1080.jpg");
     }
     }
